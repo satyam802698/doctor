@@ -9,7 +9,7 @@
 <body>
 		<h1>Doctor Management System</h1>
 		<br><br><a href="./doctor/loginpage">Login here</a>
-		<br><br><a href="./doctor/reg">Register here</a>
+		<br><br><a href="./doctor/reg">Register here...</a>
 		
 </body>
 </html>
