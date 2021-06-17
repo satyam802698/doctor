@@ -26,7 +26,7 @@
 
 <h1>	${msg}</h1>
 
-<a href="login" >click here to login</a>
+<a href="./loginpage" >click here to login</a>
 
 </body>
 </html>
