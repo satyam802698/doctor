@@ -1,5 +1,7 @@
 package com.doctormanagement.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -39,6 +41,24 @@ public class DoctorServiceImpl implements DoctorSevice {
 		
 		
 		return d;
+	}
+
+	
+
+	public List<Doctor> getAllDoctor() {
+		
+		List<Doctor> list=repo.findAll();
+		
+		return list;
+	}
+
+
+
+	public void deleteDoctor(Integer id) {
+
+	  repo.deleteById(id);
+		
+	
 	}
 
 }
